@@ -10,7 +10,23 @@ namespace Ejemplo1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hola git");
+            List<string> nombres = new List<string> { "aldahir  ",
+                                                      "sealtiel",
+                                                      "Daniel"
+                                                        };
+            Console.WriteLine("Nombres: ");
+            foreach (string nombre in nombres)
+            {
+                Console.WriteLine(nombre);
+            }
+            Console.WriteLine();
+
+            List<string> nombresAlineados = new List<string>();
+
+            for(int i = 0; i < nombres.Count; i++)
+            {
+                string
+            }
         }
     }
 }
